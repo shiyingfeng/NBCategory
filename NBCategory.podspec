@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/shiyingfeng/NBCategory'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '260497176@qq.com' => '260497176@qq.com' }
+  s.author           = { 'shiyingfeng' => '260497176@qq.com' }
   s.source           = { :git => 'https://github.com/shiyingfeng/NBCategory.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
