@@ -1,0 +1,16 @@
+PODS:
+  - NBCategory (0.1.0)
+
+DEPENDENCIES:
+  - NBCategory (from `../`)
+
+EXTERNAL SOURCES:
+  NBCategory:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NBCategory: 8c1c121b9b59854dcfdbf845eb4f264619debedd
+
+PODFILE CHECKSUM: a06aa84d15148e0f516ec9bc06b64b9f77f9cf81
+
+COCOAPODS: 1.4.0.beta.1

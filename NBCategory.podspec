@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NBCategory'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NBCategory.'
+  s.summary          = 'NBCategory.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,21 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+项目中所用到的一些分类,也包括对一些第三方扩展
                        DESC
 
-  s.homepage         = 'https://github.com/260497176@qq.com/NBCategory'
+  s.homepage         = 'https://github.com/shiyingfeng/NBCategory'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '260497176@qq.com' => '260497176@qq.com' }
-  s.source           = { :git => 'https://github.com/260497176@qq.com/NBCategory.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/shiyingfeng/NBCategory.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'NBCategory/Classes/**/*'
+  s.subspec 'NBCategory' do |NBUIView|
+      NBUIView.source_files = 'NBCategory/Classes/NBUIView/**/*'
+  end
   
   # s.resource_bundles = {
   #   'NBCategory' => ['NBCategory/Assets/*.png']
