@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'NBCategory'
+  s.name             = 'NBACategory'
   s.version          = '0.1.0'
   s.summary          = 'NBCategory.'
 
