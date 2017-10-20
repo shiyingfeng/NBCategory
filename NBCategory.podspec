@@ -30,8 +30,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.subspec 'NBCategory' do |NBUIView|
-      NBUIView.source_files = 'NBCategory/Classes/NBUIView/**/*'
+  s.subspec 'NBUIView' do |category|
+      category.source_files = 'NBCategory/Classes/NBUIView/**/*'
   end
   
   # s.resource_bundles = {
