@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NBCategory_Example' do
+  pod 'NBCategory', :path => '../'
+
+  target 'NBCategory_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
